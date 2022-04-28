@@ -1,5 +1,5 @@
 @charset "utf-8";
-@import url('main.css');
+@import url('../base/main.css');
 
 #tboxs{
   width: 100%;
@@ -21,15 +21,15 @@
 }
 
 #tboxs div.tbox[tutorials]{
-  background: url(../img/books.jpg) center/cover no-repeat;
+  background: url(../../img/books.jpg) center/cover no-repeat;
 }
 
-#tboxs div.tbox[my-projects]{
-  background: url(../img/projects.jpg) center/cover no-repeat;
+#tboxs div.tbox[projects]{
+  background: url(../../img/projects.jpg) center/cover no-repeat;
 }
 
 #tboxs div.tbox[articles]{
-  background: url(../img/articles.jpg) center/cover no-repeat;
+  background: url(../../img/articles.jpg) center/cover no-repeat;
 }
 
 #tboxs div.tbox div.art-box{
@@ -55,7 +55,7 @@
 }
 
 #tboxs div.tbox div.art-box span{
-  font-size: calc(14pt + .8vw);
+  font-size: calc(16pt + 2vw);
   text-shadow: 0 0 1pt #fdfdfdd4;
   font-family: 'roboto-bold-condensed';
 }

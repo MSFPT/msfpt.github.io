@@ -1,4 +1,4 @@
-@import url('font.css');
+@import url('../base/font.css');
 
 * {
   -webkit-box-sizing: border-box;

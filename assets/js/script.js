@@ -1,6 +1,13 @@
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/assets/js/service-worker.js');
-};
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker
+    .register("/assets/js/service-worker.js")
+    .then(serviceWorker => {
+      console.log("Service Worker registered: ", serviceWorker);
+    })
+    .catch(error => {
+      console.error("Error registering the Service Worker: ", error);
+    });
+}
 
 /* functions practical */
 
@@ -42,11 +49,3 @@ document.querySelector('#search').addEventListener('search', (event) => {
     window.open('https://duckduckgo.com/?q='+text+' site:msfpt.github.io', '_blank')
   }
 });
-
-const toggle_menu = (event) => {
-  document.querySelector('#menu').classList.toggle('active');
-  document.querySelector('#menu-close').classList.toggle('active');
-}
-
-document.querySelector("#btn-menu").addEventListener('click', toggle_menu);
-document.querySelector("#menu-close").addEventListener('click', toggle_menu);

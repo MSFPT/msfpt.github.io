@@ -1,158 +1,160 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.1/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:400,700");
 
 @font-face {
     font-family: 'Vazir-FD';
-    src: url(../font/Vazir-FD.woff);
+    src: url(../../font/Vazir-FD.woff);
 }
  
 @font-face {
     font-family: 'iransans-web';
-    src: url(../font/IRANSansWeb.woff2);
+    src: url(../../font/IRANSansWeb.woff2);
 }
  
 @font-face {
     font-family: 'iransans';
-    src: url(../font/iransans.ttf);
+    src: url(../../font/iransans.ttf);
 }
 
 @font-face {
     font-family: 'iranyekan-fa-bold-num';
-    src: url(../font/iranyekanwebboldfanum.woff);
+    src: url(../../font/iranyekanwebboldfanum.woff);
 }
  
 @font-face {
     font-family: 'iranyekan-fa-regular-num';
-    src: url(../font/iranyekanwebregularfanum.woff);
+    src: url(../../font/iranyekanwebregularfanum.woff);
 }
 
 @font-face {
     font-family: 'roboto-black';
-    src: url(../font/roboto/Roboto-Black.ttf);
+    src: url(../../font/roboto/Roboto-Black.ttf);
 }
 
 @font-face {
     font-family: 'roboto-black-italic';
-    src: url(../font/roboto/Roboto-BlackItalic.ttf);
+    src: url(../../font/roboto/Roboto-BlackItalic.ttf);
 }
 
 @font-face {
     font-family: 'roboto-bold';
-    src: url(../font/roboto/Roboto-Bold.ttf);
+    src: url(../../font/roboto/Roboto-Bold.ttf);
 }
 
 @font-face {
     font-family: 'roboto-bold-condensed';
-    src: url(../font/roboto/Roboto-BoldCondensed.ttf);
+    src: url(../../font/roboto/Roboto-BoldCondensed.ttf);
 }
 
 @font-face {
     font-family: 'roboto-bold-condensed-italic';
-    src: url(../font/roboto/Roboto-BoldCondensedItalic.ttf);
+    src: url(../../font/roboto/Roboto-BoldCondensedItalic.ttf);
 }
 
 @font-face {
     font-family: 'roboto-bold-italic';
-    src: url(../font/roboto/Roboto-BoldItalic.ttf);
+    src: url(../../font/roboto/Roboto-BoldItalic.ttf);
 }
 
 @font-face {
     font-family: 'roboto-condensed';
-    src: url(../font/roboto/Roboto-Condensed.ttf);
+    src: url(../../font/roboto/Roboto-Condensed.ttf);
 }
 
 @font-face {
     font-family: 'roboto-condensed-italic';
-    src: url(../font/roboto/Roboto-CondensedItalic.ttf);
+    src: url(../../font/roboto/Roboto-CondensedItalic.ttf);
 }
 
 @font-face {
     font-family: 'roboto-italic';
-    src: url(../font/roboto/Roboto-Italic.ttf);
+    src: url(../../font/roboto/Roboto-Italic.ttf);
 }
 
 @font-face {
     font-family: 'roboto-light';
-    src: url(../font/roboto/Roboto-Light.ttf);
+    src: url(../../font/roboto/Roboto-Light.ttf);
 }
 
 @font-face {
     font-family: 'roboto-light-italic';
-    src: url(../font/roboto/Roboto-LightItalic.ttf);
+    src: url(../../font/roboto/Roboto-LightItalic.ttf);
 }
 
 @font-face {
     font-family: 'roboto-medium';
-    src: url(../font/roboto/Roboto-Medium.ttf);
+    src: url(../../font/roboto/Roboto-Medium.ttf);
 }
 
 @font-face {
     font-family: 'roboto-medium-italic';
-    src: url(../font/roboto/Roboto-MediumItalic.ttf);
+    src: url(../../font/roboto/Roboto-MediumItalic.ttf);
 }
 
 @font-face {
     font-family: 'roboto-regular';
-    src: url(../font/roboto/Roboto-Regular.ttf);
+    src: url(../../font/roboto/Roboto-Regular.ttf);
 }
 
 @font-face {
     font-family: 'roboto-thin';
-    src: url(../font/roboto/Roboto-Thin.ttf);
+    src: url(../../font/roboto/Roboto-Thin.ttf);
 }
 
 @font-face {
     font-family: 'roboto-thin-italic';
-    src: url(../font/roboto/Roboto-ThinItalic.ttf);
+    src: url(../../font/roboto/Roboto-ThinItalic.ttf);
 }
 
 @font-face {
     font-family: 'poppins-bold';
-    src: url('../font/poppins/Poppins-Bold.ttf');
+    src: url('../../font/poppins/Poppins-Bold.ttf');
 }
 
 @font-face {
     font-family: 'poppins-light';
-    src: url('../font/poppins/Poppins-Light.ttf');
+    src: url('../../font/poppins/Poppins-Light.ttf');
 }
 
 @font-face {
     font-family: 'poppins-medium';
-    src: url('../font/poppins/Poppins-Medium.ttf');
+    src: url('../../font/poppins/Poppins-Medium.ttf');
 }
 
 @font-face {
     font-family: 'poppins-regular';
-    src: url('../font/poppins/Poppins-Regular.ttf');
+    src: url('../../font/poppins/Poppins-Regular.ttf');
 }
 
 @font-face {
     font-family: 'poppins-semibold';
-    src: url('../font/poppins/Poppins-SemiBold.ttf');
+    src: url('../../font/poppins/Poppins-SemiBold.ttf');
 }
 
 @font-face {
     font-family: 'p9e';
-    src: url(../font/p9e.ttf);
+    src: url(../../font/p9e.ttf);
 }
 
 @font-face {
     font-family: 'potra';
-    src: url(../font/Potra.ttf);
+    src: url(../../font/Potra.ttf);
 }
 
 @font-face {
     font-family: 'lib3';
-    src: url(../font/Library_3_am.otf);
+    src: url(../../font/Library_3_am.otf);
 }
 
 @font-face {
     font-family: 'nmp';
-    src: url(../font/NightmarePills-BV2w.ttf);
+    src: url(../../font/NightmarePills-BV2w.ttf);
 }
 
 @font-face {
     font-family: 'hmo';
-    src: url(../font/HelpMe-owODB.ttf);
+    src: url(../../font/HelpMe-owODB.ttf);
 }
 
 .font-Vazir-FD{ font-family: 'Vazir-FD'; }

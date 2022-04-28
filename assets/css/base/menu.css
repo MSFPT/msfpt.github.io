@@ -1,0 +1,168 @@
+
+#menu {
+  opacity: 0;
+  position: fixed;
+  top: calc(85px + .2vw);
+  left: 0;
+  background: #060608;
+  width: 0;
+  height: calc(100vh - (85px + .2vw));
+  border-radius: 1pt 0 0 2pt;
+  backdrop-filter: blur(7pt);
+  -webkit-backdrop-filter: blur(7pt);
+  z-index: 999 !important;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  transition: all .37s ease-in-out;
+  box-shadow: 0 .2pt 4pt rgba(45, 37, 49, 0.397), inset 0 -.2pt 3pt rgba(45, 37, 49, 0.397);
+}
+
+#menu.active {
+  min-width: 345px;
+  width: 40% !important;
+  max-width: 407px;
+  opacity: 1;
+}
+
+#menu-close{
+  display: none;
+  position: fixed;
+  top: calc(85px + .2vw);
+  right: 0;
+  background: #00000095;
+  width: 100%;
+  height: calc(100vh - (87.5px + .2vw));
+  backdrop-filter: blur(7pt);
+  -webkit-backdrop-filter: blur(7pt);
+  z-index: 7 !important;
+  transition: all .37s ease-in-out;
+}
+
+#menu-close.active{
+  display: block;
+}
+
+#menu menu {
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 1.3rem;
+  flex-flow: column nowrap;
+}
+
+#menu menu li {
+  list-style: none;
+  margin: 17px 0;
+}
+
+#menu menu li a {
+  position: relative;
+  color: #d9d9d9;
+  font-size: 14pt;
+  letter-spacing: 1px;
+  padding-left: 10pt;
+  transition: all .94s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#menu menu li a::before {
+  content: '';
+  top: calc(50% - 1.5pt);
+  left: 0;
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background: #7f8284;
+  border-radius: 25pt;
+  transition: all .8s cubic-bezier(0.075, 0.82, 0.165, 1);
+  filter: blur(15px);
+}
+
+#menu menu li a:hover,
+#menu menu li a:active {
+  padding-left: 22pt;
+}
+
+#menu menu li a:hover::before,
+#menu menu li a:active::before {
+  left: 2pt;
+  width: 17pt;
+  filter: blur(13px);
+}
+
+#menu footer {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+#menu footer a {
+  color: #cad2d2;
+}
+
+#menu footer>div {
+  background: #6a6a6a02;
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#menu footer>div button, .btn {
+  color: #efeeee;
+  padding: 0 7pt;
+  min-width: 7rem;
+  min-height: 2.7rem;
+  border: none;
+  border-radius: 4pt;
+  font-size: calc(16pt + .5vw);
+  margin: 7pt 14pt !important;
+  box-shadow: 0 .2pt 4pt rgba(45, 37, 49, 0.397), inset 0 -.2pt 3pt rgba(45, 37, 49, 0.397);
+  transition: all .2s ease-in-out;
+  font-weight: lighter;
+  filter: opacity(1) drop-shadow(0px 0px 2px #f2f1f182);
+}
+
+#menu footer > div button[rel="MSFPT :: Star"]{
+  background-color: #1cb68a;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  color: #09090c;
+  min-width: 10rem;
+  min-height: 3.4rem;
+}
+
+#menu footer > div button[rel="MSFPT :: Star"] img{
+  width: 32px;
+  filter: drop-shadow(0px 0px 5px #8b8d1ad8);
+  margin-right: 6pt;margin-left: 0;
+  padding-right: 6pt;padding-left: 0;
+  border-right: 2px solid #0000005c;
+}
+
+#menu footer > div button[rel="MSFPT :: Star"] span b{
+  color: #efeeee;
+}
+
+#menu footer > div button[rel="MSFPT :: Telegram"] {
+  background-color: #0088cc;
+}
+
+#menu footer > div button[rel="MSFPT :: GitHub"],
+#menu footer > div button[rel="MSFPT :: Gist"] {
+  background-color: #161b22;
+}
+
+#menu footer>div button:hover, .btn:hover {
+  filter: opacity(.95) drop-shadow(0px 0px 7px #f2f1f182);
+  cursor: pointer;
+}
+
+#menu footer div button:active, .btn:active {
+  filter: opacity(.94) drop-shadow(0px 0px 5px #f2f1f182);
+}
