@@ -52,7 +52,11 @@ body {
   align-items: center;
   overflow: hidden;
   transition: all .7s ease-in-out;
-  font-family: 'roboto-thin';
+  font-family: 'poppins-light', 'roboto-thin';
   font-weight: bold;
   overflow-y: scroll;
+}
+
+.btn.gb {
+  color: #0d0d0f;
 }

@@ -13,7 +13,7 @@
   width: 80vw;max-width: 760px;
   height: calc( 120px + 40vw);
   max-height: 500px;
-  margin: 3rem auto;
+  margin: 5rem auto;
   border-radius: 25pt;
   filter: drop-shadow(0px 0px 5px #00ffe182);
   transition: all .4s ease-in-out;
@@ -55,7 +55,7 @@
 }
 
 #tboxs div.tbox div.art-box span{
-  font-size: calc(16pt + 2vw);
+  font-size: calc(12pt + 4vw);
   text-shadow: 0 0 1pt #fdfdfdd4;
   font-family: 'roboto-bold-condensed';
 }

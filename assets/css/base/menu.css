@@ -1,3 +1,4 @@
+@charset "utf-8";
 
 #menu {
   opacity: 0;
@@ -31,7 +32,7 @@
   right: 0;
   background: #00000095;
   width: 100%;
-  height: calc(100vh - (87.5px + .2vw));
+  height: calc(100vh - (85px + .2vw));
   backdrop-filter: blur(7pt);
   -webkit-backdrop-filter: blur(7pt);
   z-index: 7 !important;
@@ -61,6 +62,11 @@
   letter-spacing: 1px;
   padding-left: 10pt;
   transition: all .94s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#menu menu li a.rmt{
+  color: #1cb68a !important;
+  font-size: 16pt !important;
 }
 
 #menu menu li a::before {
@@ -119,7 +125,7 @@
   border: none;
   border-radius: 4pt;
   font-size: calc(16pt + .5vw);
-  margin: 7pt 14pt !important;
+  margin: 12pt 14pt !important;
   box-shadow: 0 .2pt 4pt rgba(45, 37, 49, 0.397), inset 0 -.2pt 3pt rgba(45, 37, 49, 0.397);
   transition: all .2s ease-in-out;
   font-weight: lighter;
@@ -133,8 +139,8 @@
   justify-content: center;
   align-items: center;
   color: #09090c;
-  min-width: 10rem;
-  min-height: 3.4rem;
+  min-width: 8.9rem;
+  min-height: 3.2rem;
 }
 
 #menu footer > div button[rel="MSFPT :: Star"] img{

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html translate="no" lang="en, fa">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <noscript>
+    <meta http-equiv="refresh" content="0; url=https://github.com/MSFPT/">
+  </noscript>
+  <title>MsfPt :: Tutorials</title>
+  <meta name="title" content="MsfPt">
+  <meta name="theme-color" content="dark">
+  <meta name="description" content="An environment to share my meager knowledge with you">
+  <meta name="keywords" content="msfpt, books, education, programming, about">
+  <meta name="robots" content="index, follow">
+  <!-- <meta name="robots" content="noindex, nofollow"> -->
+  <meta name="revisit-after" content="1 days">
+  <meta name="language" content="English, Persian">
+  <meta name="author" content="MsfPt">
+
+  <meta name="MobileOptimized" content="176">
+  <meta name="HandheldFriendly" content="True">
+  <!-- ... -->
+  <meta property="og:title" content="MsfPt" />
+  <meta property="og:site_name" content="MsfPt">
+  <meta property="og:image" content="/tutorials/assets/img/tutorials.png">
+  <meta property="og:image:url" content="/tutorials/assets/img/tutorials.png">
+  <meta property="og:image:type" content=image/png>
+  <meta property="og:description" content="An environment to share my meager knowledge with you"/>
+  <meta property="og:locale" content="en_US, fa_IR">
+  <!-- ... -->
+  <meta name="viewport" content="width=device-width, initial-scale=0.85, maximum-scale=0.85, user-scalable=no">
+  <!-- ... -->
+  <link rel="shortcut icon" type="image/x-icon" href="https://msfpt.github.io/favicon.ico">
+  <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/app-icon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/app-icon-32x32.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="/assets/icons/app-icon-64x64.png">
+  <link rel="icon" type="image/png" sizes="128x128" href="/assets/icons/app-icon-128x128.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/app-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="256x256" href="/assets/icons/app-icon-256x256.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/assets/icons/app-icon-512x512.png">
+  <link rel="alternate icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="/assets/css/page/tutorials.css">
+  <script type="text/javascript" src="/assets/js/script.js" defer="true"></script>
+  <script type="text/javascript" src="/assets/js/menu.js" defer="true"></script>
+  <script type="text/javascript" src="/assets/js/tutorials.js" defer="true"></script>
+  <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+  <header id="main-header">
+    <a href="/">
+      <span class="logo ico-1" title="MSFPT :: Logo">MsfPt</span>
+      <span class="logo ico-2" title="MSFPT :: Logo">M</span>
+    </a>
+    <input type="search" class="text" name="sb" aria-label="Search" placeholder="Search ..." id="search" translate="no"
+      spellcheck="false" dir="auto" />
+    <!-- <section></section> -->
+    <button class="fas fa-ellipsis-h" id="btn-menu"></button>
+    <div id="menu">
+      <menu>
+        <li><a href="/">Home</a></li>
+        <li><a href="/tutorials" class="rmt">Tutorials</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <!-- <li><a href="/articles">Articles</a></li> -->
+        <li><a href="/about">About</a></li>
+      </menu>
+
+      <footer>
+        <div>
+          <a href="https://github.com/msfpt/msfpt.github.io" target="_blank" rel="MSFPT :: Star">
+            <button rel="MSFPT :: Star">
+              <img
+                src="data:image/png;base64,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" />
+              <span>Star <b></b></span>
+            </button>
+          </a>
+          <div>
+            <a href="https://github.com/msfpt/" target="_blank" rel="MSFPT :: GitHub">
+              <button rel="MSFPT :: GitHub"> GitHub </button>
+            </a>
+            <a href="https://gist.github.com/msfpt/" target="_blank" rel="MSFPT :: Gist">
+              <button rel="MSFPT :: Gist"> Gist </button>
+            </a>
+          </div>
+          <a href="tg://resolve?domain=msfpt" rel="MSFPT :: Telegram">
+            <button rel="MSFPT :: Telegram"> Telegram </button>
+          </a>
+        </div>
+      </footer>
+    </div>
+  </header>
+  <div id="menu-close"></div>
+  <section id="tutorials">
+    <h3 id="soon">Soon</h3>
+  </section>
+  <button class="btn gb" onclick="history.back();">Go Back</button>
+</body>
+</html>

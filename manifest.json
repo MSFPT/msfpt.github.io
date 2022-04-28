@@ -57,7 +57,8 @@
             "icons": [
                 {
                     "src": "/assets/img/banner.png",
-                    "sizes": "1728x1117"
+                    "sizes": "1728x1117",
+                    "type": "image/png"
                 }
             ]
         },
@@ -69,9 +70,22 @@
             "icons": [
                 {
                     "src": "/tutorials/assets/img/tutorials.png",
-                    "sizes": "1200x720"
+                    "sizes": "1200x720",
+                    "type": "image/png"
                 }
             ]
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/assets/img/banner.png",
+            "sizes": "1728x1117",
+            "type": "image/png"
+        },
+        {
+            "src": "/tutorials/assets/img/tutorials.png",
+            "sizes": "1200x720",
+            "type": "image/png"
         }
     ]
 }

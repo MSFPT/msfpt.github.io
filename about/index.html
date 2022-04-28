@@ -8,12 +8,11 @@
   <noscript>
     <meta http-equiv="refresh" content="0; url=https://github.com/MSFPT/">
   </noscript>
-  <title>MsfPt :: Home</title>
+  <title>MsfPt :: About</title>
   <meta name="title" content="MsfPt">
   <meta name="theme-color" content="dark">
-  <meta name="description" content="here (MsfPt) is a place to learn.
-me or you doesn't matter!">
-  <meta name="keywords" content="msfpt, books, education, programming, python, developer, django, programmer, rust, ruby, shell, perl, php, linux, window, tools, kernel, javascript, typescript, js, ts, kotlin, java, react, angular, react native, b4a, p4a, kivy, qt, pyside, c, cpp, c++, sh">
+  <meta name="description" content="About here(MsfPt)">
+  <meta name="keywords" content="msfpt, books, education, programming, about">
   <meta name="robots" content="index, follow">
   <!-- <meta name="robots" content="noindex, nofollow"> -->
   <meta name="revisit-after" content="1 days">
@@ -28,8 +27,7 @@ me or you doesn't matter!">
   <meta property="og:image" content="/assets/img/banner.png">
   <meta property="og:image:url" content="/assets/img/banner.png">
   <meta property="og:image:type" content=image/png>
-  <meta property="og:description" content="here (MsfPt) is a place to learn.
-me or you doesn't matter!" />
+  <meta property="og:description" content="About here(MsfPt)" />
   <meta property="og:locale" content="en_US, fa_IR">
   <!-- ... -->
   <meta name="viewport" content="width=device-width, initial-scale=0.85, maximum-scale=0.85, user-scalable=no">
@@ -44,7 +42,7 @@ me or you doesn't matter!" />
   <link rel="icon" type="image/png" sizes="256x256" href="/assets/icons/app-icon-256x256.png">
   <link rel="icon" type="image/png" sizes="512x512" href="/assets/icons/app-icon-512x512.png">
   <link rel="alternate icon" href="/favicon.ico" type="image/x-icon"/>
-  <link rel="stylesheet" href="/assets/css/page/index.css">
+  <link rel="stylesheet" href="/assets/css/page/about.css">
   <script type="text/javascript" src="/assets/js/script.js" defer="true"></script>
   <script type="text/javascript" src="/assets/js/menu.js" defer="true"></script>
   <link rel="manifest" href="manifest.json">
@@ -61,11 +59,11 @@ me or you doesn't matter!" />
     <button class="fas fa-ellipsis-h" id="btn-menu"></button>
     <div id="menu">
       <menu>
-        <li><a href="/" class="rmt">Home</a></li>
+        <li><a href="/">Home</a></li>
         <li><a href="/tutorials">Tutorials</a></li>
         <li><a href="/projects">Projects</a></li>
         <!-- <li><a href="/articles">Articles</a></li> -->
-        <li><a href="/about">About</a></li>
+        <li><a href="/about" class="rmt">About</a></li>
       </menu>
 
       <footer>
@@ -92,33 +90,14 @@ me or you doesn't matter!" />
     </div>
   </header>
   <div id="menu-close"></div>
-  <section id="tboxs">
-    <div class="tbox" tutorials>
-      <div class="art-box">
-        <span>Tutorials</span>
-        <a href="/tutorials/">
-          <button class="btn">More</button>
-        </a>
-      </div>
-    </div>
-    <div class="tbox" projects>
-      <div class="art-box">
-        <span>Projects</span>
-        <a href="/projects/">
-          <button class="btn">More</button>
-        </a>
-      </div>
-    </div>
-  <!-- soon ...
-    <div class="tbox" articles>
-      <div class="art-box">
-        <span>Applied Articles</span>
-        <a href="/articles/">
-          <button class="btn">More</button>
-        </a>
-      </div>
-    </div>
-  -->
+  <section id="about">
+    <img src="/assets/icons/app-icon-512x512.png" alt="logo"/>
+    <h3 class="dec">
+      An environment to share
+      <br>
+      my meager knowledge with you
+    </h3>
+    <button class="btn gb" onclick="history.back();">Go Back</button>
   </section>
 </body>
 </html>

@@ -1,0 +1,33 @@
+@charset "utf-8";
+@import url('../base/main.css');
+
+#about {
+  background-color: transparent;
+  backdrop-filter: blur(7pt);
+  -webkit-backdrop-filter: blur(7pt);
+  width: 97%;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+  transition: all .7s ease-in-out;
+  color: #f0f8ff;
+}
+
+#about *{
+  transition: all .7s ease-in-out;
+  margin: 1.6rem auto;
+  font-family: 'poppins-light';
+}
+
+#about img[alt="logo"] {
+  width: 60vw;max-width: 27rem;
+  filter: drop-shadow(0px 0px 5px #023922d6);
+}
+
+#about .dec{
+  font-size: calc(14pt + 1vw);
+  text-align: center;
+}
