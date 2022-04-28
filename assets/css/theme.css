@@ -1,0 +1,13 @@
+:root {
+    --bg-color: #17181c !important;
+    --color: #edd !important;
+
+    --bg-color-h: rgb(3, 7, 14) !important;
+    --color-h: #d5d9df !important;
+
+    --bg-color-mh: rgb(19, 18, 18) !important;
+    --bg-color-pb: #050505;
+
+    --shadow-color: cyan;
+    --sh-color: yellow;
+}

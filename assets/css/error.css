@@ -1,0 +1,86 @@
+@import url('font.css');
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  user-select: none;
+  -webkit-user-drag: none;
+  user-zoom: none;}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #222;
+  
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  line-height: 1.4;
+}
+
+body *{
+  margin: calc( 1rem + 2vw ) 0 !important;
+}
+
+.cnt {
+  height: 158px;
+  line-height: 153px;
+}
+
+.cnt h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  font-size: 220px;
+  letter-spacing: 10px;
+  margin: 0px;
+  font-weight: 700;
+  /* text-shadow: 2px 2px 0px #c9c9c9, -2px -2px 0px #c9c9c9; */
+  text-shadow: 2px 2px 0px #95CD41, -2px -2px 0px #95CD41, 0px 0px 8px #95CD41;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #c9c9c9;
+  font-size: calc( .7vw + 12pt );
+  font-weight: 400;
+  margin: .7rem auto 1.2rem;
+  width: 90%;
+}
+
+a {
+  margin-top: .7rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: transparent;
+  color: #c9c9c9;
+  box-shadow: 0 0 2px #c9c9c9, inset 0 0 3pt .2pt #c9c9c9;
+  border-radius: 2pt;
+  display: inline-block;
+  padding: 13px 25px 10px;
+  font-weight: 700;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+a:hover {
+  color: #95CD41;
+  box-shadow: 0 0 2px #95CD41, inset 0 0 3pt .2pt #95CD41;
+}
+
+@media only screen and (max-width: 480px) {
+  .cnt {
+    height: 122px;
+    line-height: 122px;
+  }
+
+  .cnt h1 {
+      font-size: 122px;
+  }
+}

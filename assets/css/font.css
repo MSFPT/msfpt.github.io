@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:400,700");
+
+@font-face {
+    font-family: 'Vazir-FD';
+    src: url(../font/Vazir-FD.woff);
+}
+ 
+@font-face {
+    font-family: 'iransans-web';
+    src: url(../font/IRANSansWeb.woff2);
+}
+ 
+@font-face {
+    font-family: 'iransans';
+    src: url(../font/iransans.ttf);
+}
+
+@font-face {
+    font-family: 'iranyekan-fa-bold-num';
+    src: url(../font/iranyekanwebboldfanum.woff);
+}
+ 
+@font-face {
+    font-family: 'iranyekan-fa-regular-num';
+    src: url(../font/iranyekanwebregularfanum.woff);
+}
+
+@font-face {
+    font-family: 'roboto-black';
+    src: url(../font/roboto/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-black-italic';
+    src: url(../font/roboto/Roboto-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-bold';
+    src: url(../font/roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-bold-condensed';
+    src: url(../font/roboto/Roboto-BoldCondensed.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-bold-condensed-italic';
+    src: url(../font/roboto/Roboto-BoldCondensedItalic.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-bold-italic';
+    src: url(../font/roboto/Roboto-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-condensed';
+    src: url(../font/roboto/Roboto-Condensed.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-condensed-italic';
+    src: url(../font/roboto/Roboto-CondensedItalic.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-italic';
+    src: url(../font/roboto/Roboto-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-light';
+    src: url(../font/roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-light-italic';
+    src: url(../font/roboto/Roboto-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-medium';
+    src: url(../font/roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-medium-italic';
+    src: url(../font/roboto/Roboto-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-regular';
+    src: url(../font/roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-thin';
+    src: url(../font/roboto/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: 'roboto-thin-italic';
+    src: url(../font/roboto/Roboto-ThinItalic.ttf);
+}
+
+@font-face {
+    font-family: 'poppins-bold';
+    src: url('../font/poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'poppins-light';
+    src: url('../font/poppins/Poppins-Light.ttf');
+}
+
+@font-face {
+    font-family: 'poppins-medium';
+    src: url('../font/poppins/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'poppins-regular';
+    src: url('../font/poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'poppins-semibold';
+    src: url('../font/poppins/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'p9e';
+    src: url(../font/p9e.ttf);
+}
+
+@font-face {
+    font-family: 'potra';
+    src: url(../font/Potra.ttf);
+}
+
+@font-face {
+    font-family: 'lib3';
+    src: url(../font/Library_3_am.otf);
+}
+
+@font-face {
+    font-family: 'nmp';
+    src: url(../font/NightmarePills-BV2w.ttf);
+}
+
+@font-face {
+    font-family: 'hmo';
+    src: url(../font/HelpMe-owODB.ttf);
+}
+
+.font-Vazir-FD{ font-family: 'Vazir-FD'; }
+
+.font-iransans-web{ font-family: 'iransans-web'; }
+
+.font-iransans{ font-family: 'iransans'; }
+
+.font-iranyekan-fa-regular-num{ font-family: 'iranyekan-fa-regular-num'; }
+
+.font-iranyekan-fa-bold-num{ font-family: 'iranyekan-fa-bold-num'; }
+
+/* Roboto */
+.font-roboto-black{ font-family: 'roboto-black'; }
+.font-roboto-black-italic{ font-family: 'roboto-black-italic'; }
+.font-roboto-bold{ font-family: 'roboto-bold'; }
+.font-roboto-bold-condensed{ font-family: 'roboto-bold-condensed'; }
+.font-roboto-bold-condensed-italic{ font-family: 'roboto-bold-condensed-italic'; }
+.font-roboto-bold-italic{ font-family: 'roboto-bold-italic'; }
+.font-roboto-roboto-condensed{ font-family: 'roboto-roboto-condensed'; }
+.font-roboto-roboto-condensed-italic{ font-family: 'roboto-roboto-condensed-italic'; }
+.font-roboto-roboto-italic{ font-family: 'roboto-roboto-italic'; }
+.font-roboto-roboto-light{ font-family: 'roboto-roboto-light'; }
+.font-roboto-roboto-light-italic{ font-family: 'roboto-roboto-light-italic'; }
+.font-roboto-roboto-medium{ font-family: 'roboto-roboto-medium'; }
+.font-roboto-roboto-medium-italic{ font-family: 'roboto-roboto-medium-italic'; }
+.font-roboto-regular{ font-family: 'roboto-regular'; }
+.font-roboto-thin{ font-family: 'roboto-thin'; }
+.font-roboto-thin-italic{ font-family: 'roboto-thin-italic'; }
+/* Roboto */
+
+/* Poppins */
+.font-poppins-bold{font-family: 'poppins-bold';}
+.font-poppins-light{font-family: 'poppins-light';}
+.font-poppins-medium{font-family: 'poppins-medium';}
+.font-poppins-regular{font-family: 'poppins-regular';}
+.font-poppins-semibold{font-family: 'poppins-semibold';}
+/* Poppins */
+
+.font-p9e{ font-family: 'p9e'; }
+
+.font-potra{ font-family: 'potra'; }
+
+.font-lib3{ font-family: 'lib3'; }
+
+.font-nmp{ font-family: 'nmp'; }
+
+.font-hmo{ font-family: 'hmo'; }

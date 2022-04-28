@@ -1,0 +1,72 @@
+{
+    "short_name": "MsfPt",
+    "name": "MsfPt :: Home",
+    "description": "here is a place to learn. me or you doesn't matter!",
+    "categories": ["books", "education", "programming"],
+    "display_override": ["fullscreen", "minimal-ui"],
+    "display": "standalone",
+    "lang": ["en-US", "fa"],
+    "dir": "auto",
+    "start_url": "/",
+    "scope": "/",
+    "icons": [
+        {
+            "src": "/assets/icons/app-icon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/icons/app-icon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/icons/app-icon-64x64.png",
+            "sizes": "64x64",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/icons/app-icon-128x128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/icons/app-icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/icons/app-icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "background_color": "#0d0d0f",
+    "theme_color": "#0d0d0f",
+    "shortcuts": [
+        {
+            "name": "MsfPt :: Home",
+            "short_name": "MsfPt",
+            "description": "here is a place to learn. me or you doesn't matter!",
+            "url": "/#app",
+            "icons": [
+                {
+                    "src": "/assets/icons/app-icon-128x128.png",
+                    "sizes": "128x128"
+                }
+            ]
+        },
+        {
+            "name": "MsfPt :: Tutorials",
+            "short_name": "Tutorials",
+            "description": "View weather information for tomorrow",
+            "url": "/tutorials",
+            "icons": [
+                {
+                    "src": "/tutorials/assets/img/tutorials.png",
+                    "sizes": "1200x720"
+                }
+            ]
+        }
+    ]
+}
