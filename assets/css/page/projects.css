@@ -9,6 +9,7 @@
   height: 100%;
   display: flex;
   flex-flow: column nowrap;
+  align-items: center;
   margin: 2rem 0;
   transition: all .7s ease-in-out;
 }
@@ -20,7 +21,7 @@
 
 #projects .title {
   text-align: left;
-  margin: 1.4rem 2rem .4rem;
+  margin: 25pt auto ;
 }
 
 #projects .title a{
@@ -40,7 +41,7 @@
 
 #project-list a div{
   background-color: #d29211fa;
-  width: calc(12rem + 34vw);
+  min-width: 27rem;
   max-height: calc(9rem + .3vw);
   padding: 20px 25px;
   border-radius: 7pt;
@@ -61,13 +62,13 @@
 #project-list a div h2{
   color: #f0f8ff;
   font-size: calc(18pt + .7vw);
-  margin-left: .4vw;
+  margin-left: 2pt;
 }
 
 #project-list a div p , span{
   color: #f4f7f9;
   font-size: calc(12pt + .6vw);
-  margin-left: 2.6vw !important;
+  margin-left: 7pt !important;
 }
 
 #project-list a div p {
