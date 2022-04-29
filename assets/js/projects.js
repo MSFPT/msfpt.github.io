@@ -26,9 +26,10 @@ e_request.onreadystatechange = function () {
             title_repo.innerText = _i.name
 
             let dec_repo = document.createElement('p');
+            dec_repo.classList.add('sp')
             dec_repo.innerText = _i.description
 
-            let star_fork_repo = document.createElement('span');
+            let star_fork_repo = document.createElement('p');
             star_fork_repo.innerText = ('star : ' + _i.stargazers_count + ' , fork : ' + _i.forks);
 
             data_repo_box.appendChild(title_repo);

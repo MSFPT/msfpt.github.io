@@ -41,7 +41,7 @@
 
 #project-list a div{
   background-color: #d29211fa;
-  min-width: 27rem;
+  min-width: 23.4rem;
   max-height: calc(9rem + .3vw);
   padding: 20px 25px;
   border-radius: 7pt;
@@ -61,17 +61,17 @@
 
 #project-list a div h2{
   color: #f0f8ff;
-  font-size: calc(18pt + .7vw);
-  margin-left: 2pt;
+  font-size: calc(17pt + .6vw);
 }
 
-#project-list a div p , span{
+#project-list a div p{
   color: #f4f7f9;
-  font-size: calc(12pt + .6vw);
-  margin-left: 7pt !important;
+  font-size: calc(14pt + .4vw);
+  margin: 7pt .7rem !important;
+  text-align: center;
 }
 
-#project-list a div p {
+#project-list a div .sp {
   border-bottom: 2px inset #1818185c;
   padding-bottom: 7px;
 }
