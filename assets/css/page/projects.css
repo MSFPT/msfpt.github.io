@@ -41,7 +41,7 @@
 
 #project-list a div{
   background-color: #d29211fa;
-  min-width: 23.4rem;
+  min-width: 16rem;
   max-height: calc(9rem + .3vw);
   padding: 20px 25px;
   border-radius: 7pt;
@@ -61,12 +61,12 @@
 
 #project-list a div h2{
   color: #f0f8ff;
-  font-size: calc(17pt + .6vw);
+  font-size: calc(14pt + .6vw);
 }
 
 #project-list a div p{
   color: #f4f7f9;
-  font-size: calc(14pt + .4vw);
+  font-size: calc(12pt + .5vw);
   margin: 7pt .7rem !important;
   text-align: center;
 }
