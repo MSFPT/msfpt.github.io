@@ -1,6 +1,3 @@
-let repos_github_api = "https://api.github.com/users/msfpt/repos";
-let e_github_profile = "https://github.com/msfpt/";
-
 var e_request = new XMLHttpRequest();
 
 e_request.onreadystatechange = function () {
@@ -44,5 +41,6 @@ e_request.onreadystatechange = function () {
     }
 };
 
+let repos_github_api = "https://api.github.com/users/msfpt/repos?sort=last_updates";
 e_request.open("GET", repos_github_api, true);
 e_request.send();
