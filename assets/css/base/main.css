@@ -1,13 +1,14 @@
 @charset "utf-8";
+@import url('aos-2.3.1.css');
 @import url('theme.css');
 @import url('font.css');
 @import url('header.css');
 @import url('menu.css');
 
 @media print {
-    * {
-        display: none;
-    }
+  * {
+    display: none;
+  }
 }
 
 * {
@@ -58,5 +59,11 @@ body {
 }
 
 .btn.gb {
+  padding: 3pt !important;
+  min-width: 75px !important;
+  width: 75px !important;
+  min-height: 28px !important;
+  height: 28px !important;
+  font-size: 12pt !important;
   color: #0d0d0f;
 }
