@@ -14,14 +14,13 @@
   z-index: 999 !important;
   overflow-x: hidden;
   overflow-y: scroll;
-  transition: all .37s ease-in-out;
+  transition: all .3s ease-in-out;
   box-shadow: 0 .2pt 4pt rgba(45, 37, 49, 0.397), inset 0 -.2pt 3pt rgba(45, 37, 49, 0.397);
 }
 
 #menu.active {
-  min-width: 345px;
-  width: 40% !important;
-  max-width: 407px;
+  min-width: 320px;
+  max-width: 330px;
   opacity: 1;
 }
 
@@ -120,11 +119,11 @@
 #menu footer>div button, .btn {
   color: #efeeee;
   padding: 0 7pt;
-  min-width: 7rem;
+  min-width: 6.8rem;
   min-height: 2.7rem;
   border: none;
   border-radius: 4pt;
-  font-size: calc(16pt + .5vw);
+  font-size: calc(14pt + .5vw);
   margin: 12pt 14pt !important;
   box-shadow: 0 .2pt 4pt rgba(45, 37, 49, 0.397), inset 0 -.2pt 3pt rgba(45, 37, 49, 0.397);
   transition: all .2s ease-in-out;
@@ -139,15 +138,15 @@
   justify-content: center;
   align-items: center;
   color: #09090c;
-  min-width: 8.9rem;
-  min-height: 3.2rem;
+  min-width: 5.4rem;
+  min-height: 2.9rem;
 }
 
 #menu footer > div button[rel="MSFPT :: Star"] img{
-  width: 32px;
+  width: 23px;
   filter: drop-shadow(0px 0px 5px #8b8d1ad8);
-  margin-right: 6pt;margin-left: 0;
-  padding-right: 6pt;padding-left: 0;
+  margin-right: 5pt;margin-left: 0;
+  padding-right: 5pt;padding-left: 0;
   border-right: 2px solid #0000005c;
 }
 

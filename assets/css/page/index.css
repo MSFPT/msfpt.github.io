@@ -16,7 +16,7 @@
   margin: 5rem auto;
   border-radius: 25pt;
   filter: drop-shadow(0px 0px 5px #00ffe182);
-  transition: all .4s ease-in-out;
+  transition: all .25s ease-in-out;
   overflow: hidden;
 }
 

@@ -17,7 +17,7 @@ e_request.onreadystatechange = function () {
             link_repo.href = _i.html_url;
 
             let repo_img = document.createElement('img');
-            repo_img.src = 'https://github-readme-stats.vercel.app/api/pin/?username=msfpt&repo=' + _i.name;
+            repo_img.src = 'https://github-readme-stats.vercel.app/api/pin/?username=msfpt&repo=' + _i.name + '&theme=tokyonight';
             
             link_repo.appendChild(repo_img);
             project_box.appendChild(link_repo);
