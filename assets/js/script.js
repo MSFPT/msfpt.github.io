@@ -48,9 +48,13 @@ document.oncopy = () => {
   navigator.clipboard.writeText(window.getSelection() + ('\n\nsite : '+(window.location.href)+'\n'));
 };
 
-document.querySelector('#search').addEventListener('search', (event) => {
-  var text = this.value.trim() ;
-  if (1 < text.length) {
-    window.open('https://duckduckgo.com/?q='+text+' site:msfpt.github.io', '_blank')
-  }
-});
+function getRandomItem(arr) {
+
+  // get random index value
+  const randomIndex = Math.floor(Math.random() * arr.length);
+
+  // get random item
+  const item = arr[randomIndex];
+
+  return item;
+}

@@ -7,6 +7,17 @@ const toggle_menu = (event) => {
 document.querySelector("#btn-menu").addEventListener('click', toggle_menu);
 document.querySelector("#menu-close").addEventListener('click', toggle_menu);
 
+const search_input = document.querySelector('#search')
+search_input.addEventListener('search', (event) => {
+    const this_input = event.srcElement;
+    var text = this_input.value.trim();
+    if (text.length > 0) {
+        const searchEngine = getRandomItem(['duckduckgo.com', 'google.com/search'])
+        window.open('https://' + searchEngine + '?q=' + text + ' site:msfpt.github.io', '_blank')
+    }
+    this_input.value = ''
+});
+
 let user = 'msfpt'
 let repository = 'msfpt.github.io';
 

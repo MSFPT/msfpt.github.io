@@ -2,7 +2,7 @@
     "short_name": "MsfPt",
     "name": "MsfPt :: Knowledge exchange",
     "description": "here is a place to learn. me or you doesn't matter!",
-    "categories": ["books", "education", "programming"],
+    "categories": ["books", "education", "programming", "learn", "code", "msfpt"],
     "display_override": ["fullscreen", "minimal-ui"],
     "display": "standalone",
     "lang": ["en-US", "fa"],
@@ -50,7 +50,7 @@
     "theme_color": "#0d0d0f",
     "shortcuts": [
         {
-            "name": "MsfPt :: Knowledge exchange",
+            "name": "MsfPt",
             "short_name": "MsfPt",
             "description": "here is a place to learn. me or you doesn't matter!",
             "url": "/#app",
