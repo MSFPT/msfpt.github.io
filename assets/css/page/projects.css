@@ -54,3 +54,10 @@
   filter: opacity(.97);
   box-shadow: 0 0 6pt #454545, inset 0 0 3pt .5pt #3b38319b;
 }
+
+#projects .btn-box {
+  display: flex;
+  flex-flow: column-reverse wrap;
+  align-items: center;
+  text-align: center;
+}

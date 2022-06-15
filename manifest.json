@@ -1,8 +1,8 @@
 {
     "short_name": "MsfPt",
-    "name": "MsfPt :: Knowledge exchange",
+    "name": "MsfPt",
     "description": "here is a place to learn. me or you doesn't matter!",
-    "categories": ["books", "education", "programming", "learn", "code", "msfpt"],
+    "categories": ["books", "education", "programming", "learn", "code", "tools", "msfpt"],
     "display_override": ["fullscreen", "minimal-ui"],
     "display": "standalone",
     "lang": ["en-US", "fa"],
