@@ -16,18 +16,19 @@
   color: #f0f8ff;
 }
 
-#about *{
+#about * {
   transition: all .7s ease-in-out;
   margin: 1.6rem auto;
   font-family: 'poppins-light';
 }
 
 #about img[alt="logo"] {
-  width: 60vw;max-width: 27rem;
+  width: calc(vh / 2);
+  max-width: 320px;
   filter: drop-shadow(0px 0px 5px #023922d6);
 }
 
-#about .dec{
+#about .dec {
   font-size: calc(14pt + 1vw);
   text-align: center;
 }
