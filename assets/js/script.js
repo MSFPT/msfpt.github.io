@@ -9,7 +9,7 @@ if ("serviceWorker" in navigator) {
     });
 }
 
-window.deferredPrompt = any; // Allows to show the install prompt
+let deferredPrompt ; // Allows to show the install prompt
 
 function installApp() {
   // Show the prompt
