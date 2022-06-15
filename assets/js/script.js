@@ -9,6 +9,49 @@ if ("serviceWorker" in navigator) {
     });
 }
 
+window.deferredPrompt = any; // Allows to show the install prompt
+
+function installApp() {
+  // Show the prompt
+  deferredPrompt.prompt();
+
+  // Wait for the user to respond to the prompt
+  deferredPrompt.userChoice.then(choiceResult => {
+    if (choiceResult.outcome === "accepted") {
+      console.log("PWA setup accepted");
+    } else {
+      console.log("PWA setup rejected");
+    }
+    deferredPrompt = null;
+  });
+}
+
+window.addEventListener("beforeinstallprompt", event => {
+  console.log("beforeinstallprompt fired");
+  // Prevent Chrome 76 and earlier from automatically showing a prompt
+  event.preventDefault();
+  // Stash the event so it can be triggered later.
+  deferredPrompt = event;
+  installApp()
+});
+
+window.addEventListener("appinstalled", event => {
+  console.log("appinstalled fired", event);
+});
+
+
+// -----------------------------------------------------------------------------------------------
+
+function getPWADisplayMode() {
+  const isStandalone = window.matchMedia('(display-mode: standalone)').matches;
+  if (document.referrer.startsWith('android-app://')) {
+    return 'twa';
+  } else if (navigator.standalone || isStandalone) {
+    return 'standalone';
+  }
+  return 'browser';
+}
+
 /* functions practical */
 
 function isMobile() {
